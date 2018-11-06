@@ -20,6 +20,9 @@ class Driver {
           return trip.passenger();
         });
     }
+  //trips() sets up the connection for the through relationship between driver and passenger by filtering the driver for a particular trip,
+  //then passengers set(?) the trips() function associated with the specific driver object by mapping out the connection between each passenger
+  //and trip that has already been made
 }
 
 class Passenger {
